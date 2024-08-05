@@ -12,24 +12,26 @@ public class Kata {
     /*Dados dos números enteros a y b, que pueden ser positivos o negativos, 
     hallar la suma de todos los números enteros comprendidos entre
     ellos e incluyéndolos y devolverla. Si los dos números son iguales devuelve a o b.*/
+    
+    //pequeñp cambio
     public static int GetSum(int a, int b){
         int suma=0;
         if(a==b){
             return a;
         }
-        if (a > b) {
-        int temp = a;
-        a = b;
-        b = temp;
-    }
+        
+        if(a>b){
+            int temp=a;
+            a=b;
+            b=temp;
+            
+        }
         for (int i = a; i <= b; i++) {//1,2
             suma+=i;
         }
         return suma;
     }
-    
-    
-    
+
     
     
     
