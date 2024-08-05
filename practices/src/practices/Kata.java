@@ -9,6 +9,50 @@ package practices;
  * @author KelvinCi
  */
 public class Kata {
+    /*Dados dos números enteros a y b, que pueden ser positivos o negativos, 
+    hallar la suma de todos los números enteros comprendidos entre
+    ellos e incluyéndolos y devolverla. Si los dos números son iguales devuelve a o b.*/
+    public static int GetSum(int a, int b){
+        int suma=0;
+        if(a==b){
+            return a;
+        }
+        if (a > b) {
+        int temp = a;
+        a = b;
+        b = temp;
+    }
+        for (int i = a; i <= b; i++) {//1,2
+            suma+=i;
+        }
+        return suma;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 //CREAR UNA FUNCION QUE COMPRUEBE UNA PALABRA ISOGRAMATICA
     public static boolean isoDef(String word) {
         int cantidad = 0;

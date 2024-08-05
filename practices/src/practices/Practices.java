@@ -15,8 +15,10 @@ public class Practices {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println(Kata.isograma("isogram"));
-        System.out.println(Kata.isoDef("Isogram"));
+        System.out.println(Kata.GetSum(-1, 2));//1+2=3
+        
+       // System.out.println(Kata.isograma("isogram"));
+        //System.out.println(Kata.isoDef("Isogram"));
         
         
         
